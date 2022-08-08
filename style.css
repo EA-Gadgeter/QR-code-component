@@ -33,6 +33,8 @@ body {
 .card-container {
   width: 85%;
   height: 75%;
+  max-height: 500.4px;
+  max-width: 320px;
 
   display: flex;
   flex-direction: column;
@@ -42,6 +44,9 @@ body {
 }
 
 .card-container img {
+  width: 100%;
+  height: 65%;
+
   padding: 1.7rem;
   border-radius: 3rem;
 }
